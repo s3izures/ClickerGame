@@ -19,11 +19,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void modifyPoints(int amount)
+    public void ModifyPoints(int amount)
     {
         annoyancePoints += amount;
     }
-    public int getPoints()
+    public int GetPoints()
     {
         return annoyancePoints;
     }

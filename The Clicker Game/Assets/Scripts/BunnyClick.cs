@@ -8,6 +8,6 @@ public class BunnyClick : MonoBehaviour
 
     public void ClickBunny()
     {
-        GameManager.Instance.modifyPoints(addPoints);
+        GameManager.Instance.ModifyPoints(addPoints);
     }
 }
